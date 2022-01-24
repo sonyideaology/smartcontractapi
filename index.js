@@ -470,4 +470,8 @@ app.get('/api/symbol' ,async function (req , res){
 	
 		res.send({  " balance: " :val });
 	  });
- app.listen(port, () => console.log(`Listening on port ${API_PORT}`));
+ //app.listen(port, () => console.log(`Listening on port ${API_PORT}`));
+//  const express = require('express')
+// const app = express()
+//  app.get('/', function (req, res) {  res.send('Hello World')})
+ app.listen(3000)
