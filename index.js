@@ -444,7 +444,7 @@ const contract =  new web3.eth.Contract(abi, address)
 
 const app =express();
 //const port = process.env.PORT || 3300;
-const API_PORT = process.env.PORT || 3300;
+//const API_PORT = process.env.PORT || 3300;
 
 app.use(express.json());
 
