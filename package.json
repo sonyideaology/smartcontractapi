@@ -1,15 +1,25 @@
 {
   "name": "ideanew",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "web3": "^1.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonyideaology/smartcontractapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonyideaology/smartcontractapi/issues"
+  },
+  "homepage": "https://github.com/sonyideaology/smartcontractapi#readme",
+  "description": ""
 }
