@@ -443,7 +443,8 @@ const contract =  new web3.eth.Contract(abi, address)
 // console.log(account);
 
 const app =express();
-const port = process.env.PORT || 3300;
+//const port = process.env.PORT || 3300;
+const API_PORT = process.env.PORT || 3300;
 
 app.use(express.json());
 
@@ -469,4 +470,4 @@ app.get('/api/symbol' ,async function (req , res){
 	
 		res.send({  " balance: " :val });
 	  });
- app.listen(port, () => console.log(`Listening on port ${port}`));
+ app.listen(port, () => console.log(`Listening on port ${API_PORT}`));
